@@ -13,7 +13,7 @@ const csvParser = require('csv-parser');
 const { rejects } = require('assert');
 const app = express();
 const router = express.Router();
-const port = 4000;
+const port = 3000;
 
 const db = new sqlite3.Database('database.db');
 
